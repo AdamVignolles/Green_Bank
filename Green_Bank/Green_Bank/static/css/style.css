@@ -1,0 +1,71 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Header */
+
+header{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+}
+
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 100px;
+}
+
+.choix{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    padding: 10px;
+    margin: 5px;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.choix .nom{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.choix .nom .img{
+    margin-right: 10px;
+}
+.choix:hover{
+    cursor: pointer;
+    box-shadow: 1px 1px 1px 1px #888888;
+    transform: scale(1.01);
+    transition: 0.2s ease-in-out;
+}
+
+
+.type_vehicule .content{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    padding-bottom: 100px;
+    padding-top: 100px;
+    justify-content: center;
+}
+
+
+
+
+.show{
+    display: block;
+    border: 1px solid black;
+    width: 80%;
+    border-radius: 10px;
+}
+.hide{
+    display: none;
+}
