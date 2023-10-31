@@ -48,7 +48,7 @@ main{
 }
 
 
-.type_vehicule .content{
+.content{
     display: flex;
     align-items: center;
     padding: 20px;

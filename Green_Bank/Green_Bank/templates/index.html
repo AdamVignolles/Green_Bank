@@ -65,101 +65,112 @@
 
         <div class="energie hide">
             <h3>Energie</h3>
-            <div class="choix" data-value="essence" data-name="energie">
-                <div class="img"><img src="{% static 'img/essence.png'%}"></div>
-                <h4>Essence</h4>
-            </div>
-            <div class="choix" data-value="diezel" data-name="energie">
-                <div class="img"><img src="{% static 'img/diesel.png'%}"></div>
-                <h4>Diesel</h4>
-            </div>
-            <div class="choix" data-value="hybride" data-name="energie">
-                <div class="img"><img src="{% static 'img/hybride.png'%}"></div>
-                <h4>Hybride</h4>
-            </div>
-            <div class="choix" data-value="electrique" data-name="energie">
-                <div class="img"><img src="{% static 'img/electrique.png'%}"></div>
-                <h4>Electrique</h4>
-            </div>
-            <div class="choix" data-value="gaz" data-name="energie">
-                <div class="img"><img src="{% static 'img/gaz.png'%}"></div>
-                <h4>Gaz</h4>
+            <div class="content">
+                <div class="choix" data-value="essence" data-name="energie">
+                    <div class="img"><img src="{% static 'img/essence.png'%}"></div>
+                    <h4>Essence</h4>
+                </div>
+                <div class="choix" data-value="diezel" data-name="energie">
+                    <div class="img"><img src="{% static 'img/diesel.png'%}"></div>
+                    <h4>Diesel</h4>
+                </div>
+                <div class="choix" data-value="hybride" data-name="energie">
+                    <div class="img"><img src="{% static 'img/hybride.png'%}"></div>
+                    <h4>Hybride</h4>
+                </div>
+                <div class="choix" data-value="electrique" data-name="energie">
+                    <div class="img"><img src="{% static 'img/electrique.png'%}"></div>
+                    <h4>Electrique</h4>
+                </div>
+                <div class="choix" data-value="gaz" data-name="energie">
+                    <div class="img"><img src="{% static 'img/gaz.png'%}"></div>
+                    <h4>Gaz</h4>
+                </div>
             </div>
         </div>
 
         <div class="kilometrage hide">
             <h3>Kilometrage</h3>
-            <div class="choix" data-value="kilometrage1" data-name="kilometrage">
-                <div class="img"><img src="{% static 'img/kilometrage.png'%}"></div>
-                <h4>{{ kilometrage1 }}</h4>
-            </div>
-            <div class="choix" data-value="kilometrage2" data-name="kilometrage">
-                <div class="img"><img src="{% static 'img/kilometrage.png'%}"></div>
-                <h4>{{ kilometrage2 }}</h4>
-            </div>
-            <div class="choix" data-value="kilometrage3" data-name="kilometrage">
-                <div class="img"><img src="{% static 'img/kilometrage.png'%}"></div>
-                <h4>{{ kilometrage3 }}</h4>
-            </div>
-            <div class="choix" data-value="kilometrage4" data-name="kilometrage">
-                <div class="img"><img src="{% static 'img/kilometrage.png'%}"></div>
-                <h4>{{ kilometrage4 }}</h4>
-            </div>
-            <div class="choix" data-value="kilometrage5" data-name="kilometrage">
-                <div class="img"><img src="{% static 'img/kilometrage.png'%}"></div>
-                <h4>{{ kilometrage5 }}</h4>
+            <div class="content">
+                <div class="choix" data-value="{{ kilometrage1 }}" data-name="kilometrage">
+                    <div class="img"><img src="{% static 'img/kilometrage.png'%}"></div>
+                    <h4>{{ kilometrage1 }}</h4>
+                </div>
+                <div class="choix" data-value="{{ kilometrage2 }}" data-name="kilometrage">
+                    <div class="img"><img src="{% static 'img/kilometrage.png'%}"></div>
+                    <h4>{{ kilometrage2 }}</h4>
+                </div>
+                <div class="choix" data-value="{{ kilometrage3 }}" data-name="kilometrage">
+                    <div class="img"><img src="{% static 'img/kilometrage.png'%}"></div>
+                    <h4>{{ kilometrage3 }}</h4>
+                </div>
+                <div class="choix" data-value="{{ kilometrage4 }}" data-name="kilometrage">
+                    <div class="img"><img src="{% static 'img/kilometrage.png'%}"></div>
+                    <h4>{{ kilometrage4 }}</h4>
+                </div>
+                <div class="choix" data-value="{{ kilometrage5 }}" data-name="kilometrage">
+                    <div class="img"><img src="{% static 'img/kilometrage.png'%}"></div>
+                    <h4>{{ kilometrage5 }}</h4>
+                </div>
             </div>
         </div>
 
         <div class="nombre_passager hide">
             <h3>Nombre de Passager</h3>
-            <div class="choix" data-value="passager1" data-name="passager">
-                <div class="img"><img src="{% static 'img/passager.png'%}"></div>
-                <h4>1 passager</h4>
-            </div>
-            <div class="choix" data-value="passager2" data-name="passager">
-                <div class="img"><img src="{% static 'img/passager.png'%}"></div>
-                <h4>2 passagers</h4>
-            </div>
-            <div class="choix" data-value="passager3" data-name="passager">
-                <div class="img"><img src="{% static 'img/passager.png'%}"></div>
-                <h4>3 passagers</h4>
-            </div>
-            <div class="choix" data-value="passager4" data-name="passager">
-                <div class="img"><img src="{% static 'img/passager.png'%}"></div>
-                <h4>4 passagers</h4>
+            <div class="content">
+                <div class="choix" data-value="passager1" data-name="passager">
+                    <div class="img"><img src="{% static 'img/passager.png'%}"></div>
+                    <h4>1 passager</h4>
+                </div>
+                <div class="choix" data-value="passager2" data-name="passager">
+                    <div class="img"><img src="{% static 'img/passager.png'%}"></div>
+                    <h4>2 passagers</h4>
+                </div>
+                <div class="choix" data-value="passager3" data-name="passager">
+                    <div class="img"><img src="{% static 'img/passager.png'%}"></div>
+                    <h4>3 passagers</h4>
+                </div>
+                <div class="choix" data-value="passager4" data-name="passager">
+                    <div class="img"><img src="{% static 'img/passager.png'%}"></div>
+                    <h4>4 passagers</h4>
+                </div>
             </div>
         </div>
 
         <div class="annee hide">
             <h3>Annee Fabriation</h3>
-            <div class="choix" data-value="annee1" data-name="annee">
-                <div class="img"><img src="{% static 'img/annee.png'%}"></div>
-                <h4>{{ annee1 }}</h4>
+            <div class="content">
+                <div class="choix" data-value="{{ annee1 }}" data-name="annee">
+                    <div class="img"><img src="{% static 'img/annee.png'%}"></div>
+                    <h4>{{ annee1 }}</h4>
+                </div>
+                <div class="choix" data-value="{{ annee2 }}" data-name="annee">
+                    <div class="img"><img src="{% static 'img/annee.png'%}"></div>
+                    <h4>{{ annee2 }}</h4>
+                </div>
+                <div class="choix" data-value="{{ annee3 }}" data-name="annee">
+                    <div class="img"><img src="{% static 'img/annee.png'%}"></div>
+                    <h4>{{ annee3 }}</h4>
+                </div>
+                <div class="choix" data-value="{{ annee4 }}" data-name="annee">
+                    <div class="img"><img src="{% static 'img/annee.png'%}"></div>
+                    <h4>{{ annee4 }}</h4>
+                </div>
+                <div class="choix" data-value="{{ annee5 }}" data-name="annee">
+                    <div class="img"><img src="{% static 'img/annee.png'%}"></div>
+                    <h4>{{ annee5 }}</h4>
+                </div>
             </div>
-            <div class="choix" data-value="annee2" data-name="annee">
-                <div class="img"><img src="{% static 'img/annee.png'%}"></div>
-                <h4>{{ annee2 }}</h4>
-            </div>
-            <div class="choix" data-value="annee3" data-name="annee">
-                <div class="img"><img src="{% static 'img/annee.png'%}"></div>
-                <h4>{{ annee3 }}</h4>
-            </div>
-            <div class="choix" data-value="annee4" data-name="annee">
-                <div class="img"><img src="{% static 'img/annee.png'%}"></div>
-                <h4>{{ annee4 }}</h4>
-            </div>
-            <div class="choix" data-value="annee5" data-name="annee">
-                <div class="img"><img src="{% static 'img/annee.png'%}"></div>
-                <h4>{{ annee5 }}</h4>
-            </div>
+           
         </div>
 
         <div class="resultat {{ hide_resultat }}">
-            <form method="GET" class="form_resultat">
+            <form method="GET" search=None class="form_resultat">
                 <input type="hidden" name="liste_choix" value="">
+                <button type="submit" onclick="" class="btn">Simuler</button>
             </form>
-            <p>{{ resultat }}</p>
+            <p id="resultat">{{ resultat }}</p>
+            <a href="/">Simuler une nouvelle voiture</a>
         </div>
 
     </main>

@@ -1,15 +1,15 @@
 {
     "type_de_vehicule":
-    [
-        {"nom" : "Citadine", "poid_moyen" : "800-1300", "note_eco" : 8},
-        {"nom" : "Cabriolet", "poid_moyen" : "1300-2000", "note_eco" : 6},
-        {"nom" : "Berline", "poid_moyen" : "1300-1800", "note_eco" : 6.5},
-        {"nom" : "SUV / 4x4", "poid_moyen" : "1500-2500", "note_eco" : 4}
-    ],
+    {
+        "Citadine" : { "poid_moyen" : "800-1300", "note_eco" : 8},
+        "Cabriolet" : { "poid_moyen" : "1300-2000", "note_eco" : 6},
+        "Berline" : { "poid_moyen" : "1300-1800", "note_eco" : 6.5},
+        "SUV / 4x4" : { "poid_moyen" : "1500-2500", "note_eco" : 4}
+    },
     "energie" : 
     {
         "essence" : 5,
-        "diesel" : 4,
+        "diezel" : 4,
         "electrique" : 9,
         "hybride" : 7,
         "gaz" : 6

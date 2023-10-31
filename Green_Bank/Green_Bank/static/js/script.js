@@ -12,11 +12,12 @@ let choix = document.getElementsByClassName('choix');
 let liste_choix = {};
 
 for (let i = 0; i < choix.length; i++) {
-    choix[i].addEventListener('click', function () {
+    choix[i].addEventListener('click', function (e) {
         let value = this.getAttribute('data-value');
         liste_choix[this.getAttribute('data-name')] = value;
 
         console.log(liste_choix);
+
 
         if (this.getAttribute('data-name') == 'car') {
             div_vehicule.classList.remove('show');
@@ -49,6 +50,7 @@ for (let i = 0; i < choix.length; i++) {
             div_resultat.classList.add('show');
             input_list_choix.setAttribute('value', JSON.stringify(liste_choix));
             form.submit();
+            e.preventDefault();
         }
 
     });
